@@ -15,9 +15,9 @@
 #        service_type: changeme # The service type of the connector.
 #        api_key: changeme # The Elasticsearch API key used to write data into the content index.
 connectors:
-     - connector_id: "WVhQVkNJb0J0UW85V3pOb05NbUU6TjZMQTRFQmtTc210eEtLWkk2dkxVQQ=="
-       service_type: "google_cloud_storage"
-       api_key: "XnOsCIoBtQo9WzNoSckJ"
+     - connector_id: WVhQVkNJb0J0UW85V3pOb05NbUU6TjZMQTRFQmtTc210eEtLWkk2dkxVQQ==
+       service_type: google_cloud_storage
+       api_key: XnOsCIoBtQo9WzNoSckJ
 
 
 #  The ID of the connector.
@@ -38,7 +38,7 @@ elasticsearch.host: http://localhost:9200
 
 # The API key for Elasticsearch connection.
 #    Using `api_key` is recommended instead of `username`/`password`.
-elasticsearch.api_key: "XnOsCIoBtQo9WzNoSckJ"
+elasticsearch.api_key: XnOsCIoBtQo9WzNoSckJ
 
 
 #  The username for the Elasticsearch connection.
