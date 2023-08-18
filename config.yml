@@ -33,7 +33,7 @@ connectors:
 # ------------------------------- Elasticsearch -------------------------------
 
 # The host of the Elasticsearch deployment.
-elasticsearch.host: http://localhost:9200
+elasticsearch.host: https://vacancies-poc.es.europe-west1.gcp.cloud.es.io
 
 
 # The API key for Elasticsearch connection.
